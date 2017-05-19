@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        KotlinMain kotlin = new KotlinMain();
+        kotlin.main();
         Scanner konzol = new Scanner(System.in);
         String bemenet = konzol.nextLine();
         int[] számok = new int[10000];
