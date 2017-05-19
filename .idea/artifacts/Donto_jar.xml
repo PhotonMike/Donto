@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Donto:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Donto_jar</output-path>
+    <root id="archive" name="Donto.jar">
+      <element id="module-output" name="Donto" />
+    </root>
+  </artifact>
+</component>
