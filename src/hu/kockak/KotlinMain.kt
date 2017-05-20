@@ -12,9 +12,8 @@ class KotlinMain {
         var g=0
         var akt = ""
         var vege=0
-        var loop=true
         var i=0
-        while (loop) {
+        while (i<bemenet.length) {
             if (i+2>bemenet.length){}
             else if (bemenet.substring(i,i+2).equals(", ")){
                 számok[g]= Integer.valueOf(akt)
@@ -24,8 +23,8 @@ class KotlinMain {
             }
             akt += bemenet.substring(i, i + 1)
             i++
-            if (i<bemenet.length){loop=false}
         }
+        számok[g] = Integer.valueOf(akt)
         var akthely: Int
         var elözöhely = 0
         var robot_benz = 300
@@ -60,7 +59,6 @@ class KotlinMain {
             }
             i++
         }
-        számok[g] = Integer.valueOf(akt)
         println(vege)
         System.`in`.read()
 
